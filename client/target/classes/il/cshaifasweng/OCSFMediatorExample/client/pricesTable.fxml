@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="515.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.PricesTable">
+   <children>
+      <TableView fx:id="tableview2" layoutX="65.0" layoutY="34.0" prefHeight="320.0" prefWidth="610.0">
+         <columns>
+            <TableColumn fx:id="idprices" prefWidth="75.0" text="id" />
+            <TableColumn fx:id="Fullmem" prefWidth="75.0" text="Full mem" />
+            <TableColumn fx:id="inadvance" prefWidth="75.0" text="in advance" />
+            <TableColumn fx:id="inplace" prefWidth="75.0" text="in place" />
+            <TableColumn fx:id="regmultiple" prefWidth="156.800048828125" text="regular mem - multiple" />
+            <TableColumn fx:id="regsingle" prefWidth="143.2000274658203" text="regular mem - single" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

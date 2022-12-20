@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="515.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ParkingTable">
+    <children>
+        <TableView fx:id="tableview" layoutX="67.0" layoutY="57.0" prefHeight="320.0" prefWidth="610.0">
+            <columns>
+                <TableColumn fx:id="idpark" prefWidth="192.0" text="park id" />
+                <TableColumn fx:id="rowsnum" prefWidth="222.0" text="num of rows" />
+                <TableColumn fx:id="spots" prefWidth="195.0" text="total spots" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
