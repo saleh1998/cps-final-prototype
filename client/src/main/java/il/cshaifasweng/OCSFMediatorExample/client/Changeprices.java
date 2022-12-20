@@ -40,7 +40,11 @@ public class Changeprices {
         if(!regmultiple.getText().isEmpty()) regm = Integer.parseInt(regmultiple.getText());
         int regs = -1;
         if(!regsingle.getText().isEmpty()) regs = Integer.parseInt(regsingle.getText());
-
+        fullmem.clear();
+        inadv.clear();
+        inplace.clear();
+        regmultiple.clear();
+        regsingle.clear();
         int arr[]={fullmember,inadva,inpla,regm,regs};
         Message msg = new Message(arr);
         msg.setMessage("attempt to change data");
