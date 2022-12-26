@@ -1,4 +1,4 @@
-# Protoype for software engineering course - Car park system
+# Prototype for software engineering course - Car park system
 
 ## Structure
 Pay attention to the three modules:
